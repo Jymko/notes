@@ -1,0 +1,27 @@
+Expressions evaluate to a single value. Statements do not.
+Value passed to function = Argument
+== is comparison
+= is assignment
+Boolean Data Types: True, False
+Boolean Operatoprs: and, or, not
+Comparison Operators: ==, !=, <, >, <=, >=
+
+Flow control statements
+  if, else, elif
+
+Truthy/Falsey
+  print('Enter a name.')
+  name = input()
+  if name:
+    print('Thank you for entering a name.')
+  else:
+    print('You did not enter a name.')
+
+This works because any non blank string is considered a 'Truthy'. 
+So as long as the user inputs any value,the statement will evaluate to 'True'.
+A blank string is considered to be falsey.
+The proper way is to use
+  if name != '':
+For integers, 0 is falsey, all others are truthy.
+For floats, 0.0 is falsey, all others are truthy.
+Use bool() to check what a condition will evaluate to
