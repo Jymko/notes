@@ -25,3 +25,8 @@ The proper way is to use
 For integers, 0 is falsey, all others are truthy.
 For floats, 0.0 is falsey, all others are truthy.
 Use bool() to check what a condition will evaluate to
+
+While Loops
+Each execution of a loop is call an iteration
+break - exits loop
+continue - returns to beginning of loop
